@@ -1,0 +1,21 @@
+{
+  "name": "image_caching",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cache_image.js",
+  "scripts": {
+    "start": "node cache_image.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/image-caching.git"
+  },
+  "author": "Nam Doan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "request": "^2.76.0",
+    "url": "^0.11.0"
+  }
+}
